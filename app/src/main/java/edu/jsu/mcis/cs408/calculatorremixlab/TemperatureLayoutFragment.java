@@ -24,7 +24,6 @@ public class TemperatureLayoutFragment extends Fragment {
 
     // Instances of this class are used for the individual fragments within the tabbed layout
 
-    public static final String ARG_ID = "id";
 
     private TemperatureConverterBinding binding;
 

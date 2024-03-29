@@ -21,21 +21,13 @@ public class TabLayoutAdapter extends FragmentStateAdapter {
 
         fragments.add(new TipLayoutFragment());
         fragments.add(new TemperatureLayoutFragment());
-        fragments.add(new TemperatureLayoutFragment());
+        fragments.add(new DistanceLayoutFragment());
 
     }
 
     @NonNull
     @Override
     public Fragment createFragment(int position) {
-
-        //Fragment fragment = new TipLayoutFragment();
-        //Fragment fragment1 = new TemperatureLayoutFragment();
-
-        //Bundle args = new Bundle();
-        //args.putInt(TipLayoutFragment.ARG_ID, position + 1);
-        //args.putInt(TemperatureLayoutFragment.ARG_ID, position + 1);
-        //fragment1.setArguments(args);
 
         return fragments.get(position);
 
