@@ -1,5 +1,6 @@
 package edu.jsu.mcis.cs408.calculatorremixlab;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -7,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -64,7 +66,9 @@ public class TipLayoutFragment extends Fragment {
 
     private void checkInputs(String totalBill, String tipPercent, String numPeople){
         if(totalBill.isEmpty() || tipPercent.isEmpty() || numPeople.isEmpty()){
-            Log.d("CHECK INPUTS", "ERROR: All inputs not provided!");
+            Context context = requireContext();
+            Toast toast = Toast.makeText(context, "ERROR: ALL INPUTS WERE NOT PROVIDED!", Toast.LENGTH_SHORT);
+            toast.show();
         }
         else{
             float totalBillnum = Float.parseFloat(totalBill);
