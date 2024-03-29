@@ -2,7 +2,6 @@ package edu.jsu.mcis.cs408.calculatorremixlab;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,8 +21,6 @@ import edu.jsu.mcis.cs408.calculatorremixlab.databinding.TipCalculatorBinding;
 public class TipLayoutFragment extends Fragment {
 
     // Instances of this class are used for the individual fragments within the tabbed layout
-
-    public static final String ARG_ID = "id";
 
     private TipCalculatorBinding binding;
 
