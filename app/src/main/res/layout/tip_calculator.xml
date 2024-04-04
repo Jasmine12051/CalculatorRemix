@@ -6,19 +6,6 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/fragmentId"
-        android:layout_width="227dp"
-        android:layout_height="161dp"
-        android:text="@string/fragment_id"
-        android:textSize="96sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.684"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785" />
-
-    <TextView
         android:id="@+id/totalBillHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

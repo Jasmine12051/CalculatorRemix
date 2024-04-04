@@ -26,6 +26,7 @@
         android:id="@+id/MilesInput"
         android:layout_width="167dp"
         android:layout_height="48dp"
+        android:inputType="number"
         app:layout_constraintBaseline_toBaselineOf="@+id/MHeader"
         app:layout_constraintStart_toStartOf="@+id/guideline4" />
 
@@ -42,6 +43,7 @@
         android:id="@+id/kiloInput"
         android:layout_width="143dp"
         android:layout_height="45dp"
+        android:inputType="number"
         app:layout_constraintBaseline_toBaselineOf="@+id/KHeader"
         app:layout_constraintStart_toStartOf="@+id/guideline4" />
 
